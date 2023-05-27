@@ -795,17 +795,28 @@ height: 16px;
 border: 1px solid #2e2f42;
 border-radius: 2px;
 fill: transparent;
+margin-right: 8px;
 }
 
+.chexbox-policy:checked + .label-input-chexbox .chexbox-custom {background-color: #404bbf;
+  border: none;
+  border-color: #404bbf;
+fill: #ffffff;}
+.chexbox-policy:focus + .label-input-chexbox .chexbox-custom {border-color: #404bbf;}
 
-
+.chexbox-policy:focus +.chexbox-custom {background: #404bbf;
+  border: 1px solid #404bbf}
 /* checkbox customs close */
+.chexbox-custom-img {cursor: pointer;
+}
 
-
-
+.visually-hidden {opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+position: absolute;}
 
 .input-button-accept {
-  display: flex;
+  display: block;
   min-width: 169px;
   min-height: 56px;
  margin:0 auto;
@@ -820,7 +831,8 @@ color: #FFFFFF;
 background: #4D5AE5;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-border: none;}
+border: none;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 .input-button-accept:hover,
 .input-button-accept:focus {background-color: #404BBF;;}

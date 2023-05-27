@@ -785,7 +785,18 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 .div-chexbox-input {margin-bottom: 24px;}
 /* chexbox customs */
-.chexbox-custom {border: 1px solid rgba(46, 47, 66, 0.4);}
+
+.chexbox-custom {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+height: 16px;
+border: 1px solid #2e2f42;
+border-radius: 2px;
+fill: transparent;
+}
+
 
 
 /* checkbox customs close */

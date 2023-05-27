@@ -710,7 +710,7 @@ overflow: hidden;}
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 .label-input {
   font-style: normal;
@@ -745,11 +745,14 @@ border-radius: 4px;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
-line-height: 14px;
+line-height: 1.17;
 letter-spacing: 0.04em;
-color: rgba(46, 47, 66, 0.4);}
-
-
+padding: 8px 16px;
+color: rgba(46, 47, 66, 0.4);
+border: 1px solid rgba(46, 47, 66, 0.2);
+background-color: transparent;
+outline: transparent;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 .textarea-coment:hover,
 .textarea-coment:focus {
@@ -769,4 +772,29 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .textarea-coment-div {margin-bottom: 16px;}
 
 .modal-input-cont {position: relative;}
+
+.div-chexbox-input {margin-bottom: 24px;}
+
+
+
+.input-button-accept {
+  display: flex;
+  min-width: 169px;
+  min-height: 56px;
+ margin:0 auto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+align-items: center;
+justify-content: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border: none;}
+
+.input-button-accept:hover,
+.input-button-accept:focus {background-color: #404BBF;;}
 /* modal inputs! */

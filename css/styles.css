@@ -754,6 +754,8 @@ color: rgba(46, 47, 66, 0.4);}
 .modal-icon-input {position: absolute;
 top: 50%;
 left: 16px;
-transform: translateY(-50%);}
+transform: translateY(-50%);
+fill: #2E2F42;}
+
 .modal-input-cont {position: relative;}
 /* modal inputs! */
